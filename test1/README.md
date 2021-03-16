@@ -29,7 +29,7 @@
 
   
 
-  - 运行结果 ![image-20210316120522236](C:\Users\he470\AppData\Roaming\Typora\typora-user-images\image-20210316120522236.png)
+  - 运行结果 ![image-20210316120522236](image-20210316120522236.png)
 
 - 查询 2：
 
