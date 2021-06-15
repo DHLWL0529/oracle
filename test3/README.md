@@ -29,7 +29,7 @@ alter user lycdu quota unlimited on users02;
 alter user lycdu quota unlimited on users03;
 ```
 
-![image-20210614225928174](C:\Users\he470\AppData\Roaming\Typora\typora-user-images\image-20210614225928174.png)
+![image-20210614225928174](1.png)
 
 ### 2.用自己的账号new_cy登录,并创建表：orders（订单表）和order_details（订单详表）
 
@@ -184,7 +184,7 @@ select count(*) from lycdu.orders;
 select count(*) from lycdu.order_details;
 ```
 
-![image-20210614230558155](C:\Users\he470\AppData\Roaming\Typora\typora-user-images\image-20210614230558155.png)
+![image-20210614230558155](2.png)
 
 ### 4. 查看数据库的使用情况
 
@@ -195,7 +195,7 @@ tablespace_name,FILE_NAME,BYTES/1024/1024 MB,MAXBYTES/1024/1024 MAX_MB,autoexten
 WHERE  tablespace_name='USERS';
 ```
 
-![image-20210614230712451](C:\Users\he470\AppData\Roaming\Typora\typora-user-images\image-20210614230712451.png)
+![image-20210614230712451](3.png)
 
 #### 查看每个文件的磁盘占用情况
 
@@ -210,7 +210,7 @@ SELECT a.tablespace_name "表空间名",Total/1024/1024 "大小MB",
  where  a.tablespace_name = b.tablespace_name;
 ```
 
-![image-20210614230822098](C:\Users\he470\AppData\Roaming\Typora\typora-user-images\image-20210614230822098.png)
+![image-20210614230822098](4.png)
 
 
 
