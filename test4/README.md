@@ -829,34 +829,34 @@ NOCOMPRESS;
 
 
 
-![](D:\he470\Documents\2021 oracle\oracle\test4\1.png)
+![](1.png)
 
 ### 7.数据关系图：
 
-![](D:\he470\Documents\2021 oracle\oracle\test4\9.png)
+![](9.png)
 
 ### 8.查询数据：
 
 查询某个员工的信息
-![ALT TEXT](C:/Users/he470/Desktop/oracle-master (1)/oracle-master/test4/2.png)
+![ALT TEXT](2.png)
 
 递归查询某个员工及其所有下属，子下属员工。
-![ALT TEXT](C:/Users/he470/Desktop/oracle-master (1)/oracle-master/test4/3.png)
+![ALT TEXT](3.png)
 
 查询订单表，并且包括订单的订单应收货款: Trade_Receivable= sum(订单详单表.ProductNum*订单详单表.ProductPrice)- Discount。
-![ALT TEXT](C:/Users/he470/Desktop/oracle-master (1)/oracle-master/test4/4.png)
+![ALT TEXT](4.png)
 
 查询订单详表，要求显示订单的客户名称和客户电话，产品类型用汉字描述。
-![ALT TEXT](C:/Users/he470/Desktop/oracle-master (1)/oracle-master/test4/5.png)
+![ALT TEXT](5.png)
 
 查询出所有空订单，即没有订单详单的订单。
-![ALT TEXT](C:/Users/he470/Desktop/oracle-master (1)/oracle-master/test4/6.png)
+![ALT TEXT](6.png)
 
 查询部门表，同时显示部门的负责人姓名。
-![ALT TEXT](C:/Users/he470/Desktop/oracle-master (1)/oracle-master/test4/7.png)
+![ALT TEXT](7.png)
 
 查询部门表，统计每个部门的销售总金额。
-![ALT TEXT](C:/Users/he470/Desktop/oracle-master (1)/oracle-master/test4/8.png)
+![ALT TEXT](8.png)
 
 
 

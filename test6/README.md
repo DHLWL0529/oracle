@@ -43,7 +43,7 @@ alter session set container=cjhpdb;
 
 
 
-![](C:/Users/he470/Desktop/oracle-master (3)/oracle-master/test6/2.png)
+![](2.png)
 
 创建表空间：
 
@@ -79,7 +79,7 @@ EXTENT MANAGEMENT LOCAL SEGMENT SPACE MANAGEMENT AUTO;
 
 
 
-![](C:/Users/he470/Desktop/oracle-master (3)/oracle-master/test6/3.png)
+![](3.png)
 
 创建用户与角色，并给用户授权
 ----------------------------
@@ -116,7 +116,7 @@ GRANT cjhrole2 to usercjh;
 
 
 
-![](C:/Users/he470/Desktop/oracle-master (3)/oracle-master/test6/4.png)
+![](4.png)
 
 系统用表
 --------
@@ -485,7 +485,7 @@ ENABLE;
 
 
 
-![](C:/Users/he470/Desktop/oracle-master (3)/oracle-master/test6/5.png)
+![](5.png)
 
 #### 出货表(sold)
 
@@ -603,7 +603,7 @@ ENABLE;
 >
 >   ENABLE;
 
-![](C:/Users/he470/Desktop/oracle-master (3)/oracle-master/test6/6.png)
+![](6.png)
 
 #### 5.4、用户表(users)
 
@@ -701,7 +701,7 @@ NOPARALLEL;
 
 
 
-![](C:/Users/he470/Desktop/oracle-master (3)/oracle-master/test6/7.png)
+![](7.png)
 
 数据初始化
 ----------
@@ -853,9 +853,9 @@ end;
 
 
 
-![](C:/Users/he470/Desktop/oracle-master (3)/oracle-master/test6/8.png)
+![](8.png)
 
-![](C:/Users/he470/Desktop/oracle-master (3)/oracle-master/test6/9.png)
+![](9.png)
 
 #### 创建程序包
 
@@ -929,7 +929,7 @@ END MyPack;
 
 
 
-![](C:/Users/he470/Desktop/oracle-master (3)/oracle-master/test6/10.png)
+![](10.png)
 
 测试Get_Count函数：
 
@@ -939,7 +939,7 @@ SELECT MyPack.Get_Count as 总记录数 from dual;
 
 
 
-![](C:/Users/he470/Desktop/oracle-master (3)/oracle-master/test6/11.png)
+![](11.png)
 
 #### 备份
 
@@ -1017,7 +1017,7 @@ RMAN\> 2\> 3\> 4\> 5\> 6\> 7\> 8\> 9\> 10\> 11\> 12\> 13\> 14\> 15\> 16\> RMAN\>
 
 
 
-![](C:/Users/he470/Desktop/oracle-master (3)/oracle-master/test6/12.png)
+![](12.png)
 
 实验总结
 ========
